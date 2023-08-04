@@ -1,100 +1,7 @@
 #### 总览
 
-<p align="center">
-    <img src="readme/logo-t-y.png" alt="go-view" />
-</p>
-
 <h4 align="center">开源、精美、便捷的「数据可视化」低代码开发平台</h4>
 
-#### 长期赞助商
-
-<div>
-  <div align="center" style="column-gap: 20px;">
-    <a
-      href="http://www.ccflow.org/?from=goviewGitee"
-      target="_blank"
-      style="
-        padding: 10px 20px;
-        display: inline-block;
-        border-radius: 10px;
-        background: #f9f9f9;
-      ">
-      <img src="readme/sponsors/ccflow-banner.png" alt="go-view" style="width: 250px;" width="250px" />
-    </a>
-    <span> &nbsp;</span>
-    <a
-      href="https://fastbee.cn/"
-      target="_blank"
-      style="
-        padding: 10px 20px;
-        display: inline-block;
-        border-radius: 10px;
-        background: #f9f9f9;
-      ">
-      <img src="readme/sponsors/fb-banner.gif" alt="go-view" style="width: 250px;" width="250px"/>
-    </a>
-    <br/>
-    <br/>
-    <a
-      href="https://www.qeasy.cloud/"
-      target="_blank"
-      style="
-        padding: 10px 20px;
-        display: inline-block;
-        border-radius: 10px;
-        background: #f9f9f9;
-      ">
-      <img src="readme/sponsors/qyy-banner.png" alt="go-view" style="width: 250px;" width="250px"/>
-    </a>
-    <span> &nbsp;</span>
-    <a
-      href="http://doc.zyplayer.com/#/integrate/zyplayer-doc?utm=goview"
-      target="_blank"
-      style="
-        padding: 10px 20px;
-        display: inline-block;
-        border-radius: 10px;
-        background: #f9f9f9;
-      ">
-      <img src="readme/sponsors/zyplayer-banner.png" alt="go-view" style="width: 250px;" width="250px"/>
-    </a>  
-    <br/>
-    <br/>
-    <a
-      href="https://gitee.com/dandiankeji/icampus"
-      target="_blank"
-      style="
-        padding: 10px 20px;
-        display: inline-block;
-        border-radius: 10px;
-        background: #f9f9f9;
-      ">
-      <img src="readme/sponsors/dandian-banner.png" alt="go-view" style="width: 250px;" width="250px"/>
-    </a>  
-  </div>
-</div>
-
-#### 😶 **纯前端** 分支： **`master`**
-
-#### 👻 携带 **后端** 请求分支: **`master-fetch`**
-
-#### 📚 GoView **文档** 地址：[https://www.mtruning.club/](https://www.mtruning.club/)
-
-项目纯前端-Demo 地址：[https://vue.mtruning.club/](https://vue.mtruning.club/)
-
-项目带后端-Demo 地址：[https://demo.mtruning.club/](https://demo.mtruning.club/)
-
-Cloud IDE 代码在线预览地址：[https://idegitee.com/dromara/go-view](https://idegitee.com/dromara/go-view)
-
-#### 🤯 后端项目看这里!
-
-后端地址（社区实现，仅供参考）：
-
-- `JAVA` [https://gitee.com/MTrun/go-view-serve](https://gitee.com/MTrun/go-view-serve) (当前使用)
-- `.NET` [https://gitee.com/sun_xiang_yu/go-view-dotnet](https://gitee.com/sun_xiang_yu/go-view-dotnet)
-- `NODE` [https://gitee.com/qwdingyu/led](https://gitee.com/qwdingyu/led)
-- `Docker 镜像` [https://gitee.com/AHEAD4/go-view-docker](https://gitee.com/AHEAD4/go-view-docker)
-- `接口文档`[https://docs.apipost.cn](https://docs.apipost.cn/preview/5aa85d10a59d66ce/ddb813732007ad2b?target_id=84dbc5b0-158f-4bcb-8f74-793ac604ada3) (不是最新, 以前端代码为准)
 
 #### 整体介绍
 
@@ -108,34 +15,6 @@ Cloud IDE 代码在线预览地址：[https://idegitee.com/dromara/go-view](http
 
 - 封装：项目进行了详细的工具类封装如：路由、存储、加/解密、文件处理、主题、NaiveUI 全局方法、组件等
 
-- 入选 NaiveUI 社区精选资源推荐：[查看 NaiveUI 推荐列表](https://www.naiveui.com/zh-CN/light/docs/community)
-
-说明文档：
-![说明文档](readme/go-view-doc.png)
-
-工作台：
-![工作台](readme/go-view-canvas.png)
-
-请求配置：
-![请求配置](readme/go-view-fetch.png)
-
-数据过滤：
-![数据过滤](readme/go-view-filter.png)
-
-高级事件编辑:
-![高级事件编辑](readme/go-view-event.png)
-
-自定义组件颜色:
-![高级事件编辑](readme/go-view-echarts-color.png)
-
-快捷主页：
-![快捷主页](readme/go-view-indexpage.png)
-
-主题色：
-![主题色](readme/go-view-color.png)
-
-亮白主题：
-![亮白主题](readme/go-view-theme.png)
 
 主要技术栈为：
 
@@ -166,32 +45,3 @@ Cloud IDE 代码在线预览地址：[https://idegitee.com/dromara/go-view](http
 | 列表   | 滚动排名列表     | 滚动表格   | 🐮             | 🐐                       |
 | 小组件 | 边框-01~13       | 装饰-01~05 | 数字翻牌       | 通用时间                 |
 | \*     | 数字计数         | 倒计时     | 时钟           | 🦁                       |
-
-## 浏览器支持
-
-开发和测试平台均在 `Google` 和最新版 `EDGE` 上完成，暂未测试 `IE11` 等其它浏览器，如有需求请自行测试与兼容。
-
-## 安装
-
-请查看文档：[https://www.mtruning.club/](https://www.mtruning.club/)
-
-## 代码提交
-
-- feat: 新功能
-- fix: 修复 Bug
-- docs: 文档修改
-- perf: 性能优化
-- revert: 版本回退
-- ci: CICD 集成相关
-- test: 添加测试代码
-- refactor: 代码重构
-- build: 影响项目构建或依赖修改
-- style: 不影响程序逻辑的代码修改
-- chore: 不属于以上类型的其他类型(日常事务)
-
-## 交流群
-
-QQ 群：881415392
-<img width="260px" src="readme/go-view-qq.png" alt="QQ群" style="border-radius: 20px" />
-
-![渲染海报](readme/logo-poster.png)
