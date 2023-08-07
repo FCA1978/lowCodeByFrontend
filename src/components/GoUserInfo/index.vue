@@ -20,8 +20,6 @@
 
   <!-- 系统设置 model -->
   <go-system-set v-model:modelShow="modelShow"></go-system-set>
-  <!-- 关于软件 model -->
-  <go-system-info v-model:modelShow="modelShowInfo"></go-system-info>
 </template>
 
 <script lang="ts" setup>
@@ -30,12 +28,10 @@ import { NAvatar, NText } from 'naive-ui'
 import { renderIcon } from '@/utils'
 import { logout, renderLang } from '@/utils'
 import { GoSystemSet } from '@/components/GoSystemSet/index'
-import { GoSystemInfo } from '@/components/GoSystemInfo/index'
 import Person from './person.png'
-
 import { icon } from '@/plugins'
+
 const {
-  ChatboxEllipsesIcon,
   PersonIcon,
   LogOutOutlineIcon,
   SettingsSharpIcon
@@ -85,11 +81,6 @@ const options = ref([
     label: renderLang('global.sys_set'),
     key: 'sysSet',
     icon: renderIcon(SettingsSharpIcon)
-  },
-  {
-    label: renderLang('global.contact'),
-    key: 'contact',
-    icon: renderIcon(ChatboxEllipsesIcon)
   },
   {
     type: 'divider',
