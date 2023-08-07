@@ -11,6 +11,7 @@ import {
   DesktopOutline as DesktopOutlineIcon,
   Download as DownloadIcon,
   DownloadOutline as DownloadOutlineIcon,
+  EarthOutline as EarthOutlineIcon,
   Share as ShareIcon,
   Send as SendIcon,
   InformationCircleOutline as InformationCircleIcon,
@@ -155,6 +156,8 @@ const ionicons5 = {
   // 下载
   DownloadIcon,
   DownloadOutlineIcon,
+  // 地球
+  EarthOutlineIcon,
   // 导出
   ShareIcon,
   // 导出

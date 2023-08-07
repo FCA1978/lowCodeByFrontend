@@ -6,7 +6,7 @@ import { PackagesCategoryEnum, PackagesCategoryName, ConfigType } from '@/packag
 import { usePackagesStore } from '@/store/modules/packagesStore/packagesStore'
 import { ChartLayoutStoreEnum } from '@/store/modules/chartLayoutStore/chartLayoutStore.d'
 // 图标
-const { AirPlaneOutlineIcon, ImageIcon, BarChartIcon } = icon.ionicons5
+const { AirPlaneOutlineIcon, ImageIcon, BarChartIcon,EarthOutlineIcon } = icon.ionicons5
 const { TableSplitIcon, RoadmapIcon, SpellCheckIcon, GraphicalDataFlowIcon } = icon.carbon
 
 // 图表
@@ -41,7 +41,11 @@ const packagesListObj = {
   [PackagesCategoryEnum.ICONS]: {
     icon: renderIcon(AirPlaneOutlineIcon),
     label: PackagesCategoryName.ICONS
-  }
+  },
+  [PackagesCategoryEnum.CULTURALRELIC]: {
+    icon: renderIcon(EarthOutlineIcon),
+    label: PackagesCategoryName.CULTURALRELIC
+  },
 }
 
 export const useAsideHook = () => {
@@ -61,6 +65,7 @@ export const useAsideHook = () => {
         list: packagesStore.getPackagesList[val]
       })
     }
+    
   }
   handlePackagesList()
 

@@ -93,6 +93,7 @@ watch(
         label: packages.categoryNames[val]
       })
     }
+
     setSelectOptions(packages.categorys)
     // 默认选中处理
     selectValue.value = packages.menuOptions[0]['key']
