@@ -1,5 +1,6 @@
 <template>
   <div class="go-sketch-rule">
+    <!-- 标尺 -->
     <sketch-rule
       v-if="sketchRuleReDraw"
       :thick="thick"
